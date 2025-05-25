@@ -1,0 +1,17 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"lint": "biome check",
+		"lint:fix": "biome check --fix",
+		"generate": "node generate.js"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"@retrogen/generate": "^0.0.2",
+		"luxon": "^2.3.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
+}
